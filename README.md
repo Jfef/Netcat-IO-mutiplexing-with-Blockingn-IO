@@ -8,3 +8,4 @@ https://www.bilibili.com/video/BV1MX4y1A7uN?p=21
 
 源代码地址：https://github.com/chenshuo/recipes
 
+结论就是：IO 复用 socket 考虑使用的是，非阻塞的方式，而不是阻塞的方式的来，实现的。
