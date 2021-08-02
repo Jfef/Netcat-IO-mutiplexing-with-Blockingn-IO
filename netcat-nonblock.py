@@ -7,6 +7,7 @@ import select
 import socket
 import sys
 
+# Caution :in this example we only show how to deal with short wirte 
 def setNonBlocking(fd):
     flags = fcntl.fcntl(fd, fcntl.F_GETFL)
     fcntl.fcntl(fd, fcntl.F_SETFL, flags | os.O_NONBLOCK)
